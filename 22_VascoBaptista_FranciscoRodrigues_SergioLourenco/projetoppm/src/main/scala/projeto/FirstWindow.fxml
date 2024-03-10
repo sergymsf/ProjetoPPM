@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="projeto.FirstWindow">
+   <children>
+      <Button fx:id="button1" layoutX="225.0" layoutY="291.0" mnemonicParsing="false" onMouseClicked="#onButtonClicked" prefHeight="52.0" prefWidth="150.0" text="PLAY" />
+      <ColorPicker fx:id="playercolor" layoutX="70.0" layoutY="83.0" prefWidth="150.0" />
+      <ColorPicker fx:id="npccolor" layoutX="380.0" layoutY="83.0" prefWidth="150.0" />
+      <Label layoutX="95.0" layoutY="56.0" text="Choose your color:" />
+      <Label layoutX="381.0" layoutY="56.0" text="Choose the computer color:" />
+      <CheckBox fx:id="playerbox" layoutX="136.0" layoutY="232.0" mnemonicParsing="false" text="Player" />
+      <CheckBox fx:id="npcbox" layoutX="254.0" layoutY="232.0" mnemonicParsing="false" text="Computer" />
+      <Label layoutX="256.0" layoutY="200.0" prefHeight="18.0" prefWidth="86.0" text="Who starts First" />
+      <Label fx:id="label1" alignment="CENTER" contentDisplay="CENTER" layoutX="75.0" layoutY="358.0" opacity="0.0" prefHeight="18.0" prefWidth="453.0" text="Can't choose the same color for both players" textAlignment="CENTER" textFill="#ec0000" />
+      <Button fx:id="loadButton" layoutX="59.0" layoutY="282.0" mnemonicParsing="false" onMouseClicked="#loadButtonClicked" prefHeight="36.0" prefWidth="86.0" text="Load File" />
+      <Button fx:id="cancelButton" layoutX="59.0" layoutY="326.0" mnemonicParsing="false" onMouseClicked="#cancelButtonClicked" prefHeight="26.0" prefWidth="86.0" text="Cancel File" />
+      <CheckBox fx:id="PvP" layoutX="380.0" layoutY="232.0" mnemonicParsing="false" text="Player vs Player" />
+      <Slider fx:id="scroll" layoutX="234.0" layoutY="162.0" max="1.0" showTickMarks="true" />
+      <Label layoutX="278.0" layoutY="133.0" text="Difficulty " />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="199.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/iscte.png" />
+         </image></ImageView>
+      <ImageView fitHeight="24.0" fitWidth="31.0" layoutX="151.0" layoutY="288.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/load.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="151.0" layoutY="327.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/unload.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="42.0" fitWidth="24.0" layoutX="107.0" layoutY="229.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/user.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="36.0" fitWidth="24.0" layoutX="350.0" layoutY="229.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/users.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="18.0" fitWidth="24.0" layoutX="227.0" layoutY="232.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/computer.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="59.0" fitWidth="54.0" layoutX="381.0" layoutY="290.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/play.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

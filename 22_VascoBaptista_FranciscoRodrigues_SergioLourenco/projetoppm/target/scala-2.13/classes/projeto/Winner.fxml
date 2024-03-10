@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="projeto.Winner">
+   <children>
+      <Label fx:id="label1" alignment="CENTER" contentDisplay="CENTER" layoutX="69.0" layoutY="58.0" prefHeight="283.0" prefWidth="462.0" text="YOU WON!!!" textAlignment="JUSTIFY" textFill="#00ff11">
+         <font>
+            <Font size="77.0" />
+         </font></Label>
+      <ImageView fx:id="image" fitHeight="150.0" fitWidth="200.0" layoutX="8.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/giphy.gif" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="image2" fitHeight="150.0" fitWidth="200.0" layoutX="441.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/giphy.gif" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
